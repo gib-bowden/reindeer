@@ -7,10 +7,7 @@ var hohohoElement = document.getElementById("reindeer");
 
 for (i = 0; i < loopCount; i++) {
 
-	var colorDeerDom = ""
-	var currentColorDeer = ("<h2>" + colors[i] + " " + reindeer[i] + "</h2>"); 
-
-	colorDeerDom += currentColorDeer;
+	var colorDeerDom = ("<h2>" + colors[i] + " " + reindeer[i] + "</h2>"); 
 
 	hohohoElement.innerHTML += colorDeerDom;
 }
